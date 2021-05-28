@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "pagecall-ios-framework"
-    s.version      = "v2.0.3"
+    s.version      = "2.0.3"
     s.summary      = "A brief description of pagecall-ios-framework project."
     s.description  = <<-DESC
     An extended description of pagecall-ios-framework project.
