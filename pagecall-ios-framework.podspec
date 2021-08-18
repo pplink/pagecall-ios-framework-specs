@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
     s.homepage      = "https://pplink.net/"
     s.license       = { :type => 'MIT', :file => 'LICENSE' }
     s.author        = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source        = { :git => "https://github.com/pplink/pagecall-ios-framework-distribution.git", :tag => "#{s.version}" }
+    s.source        = { :git => "https://github.com/pplink/pagecall-ios-framework-distribution.git" }
+    #s.source        = { :git => "https://github.com/pplink/pagecall-ios-framework-distribution.git", :tag => "#{s.version}" }
     #s.source        = { :git => "https://github.com/pplink/pagecall-ios-framework-distribution.git", :branch => "develop"}
     s.vendored_frameworks = "PageCallSDK.xcframework"
     s.platform = :ios
