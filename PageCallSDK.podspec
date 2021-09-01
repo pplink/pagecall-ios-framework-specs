@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = "PageCallSDK"
-    s.version       = "2.1.1"
+    s.version       = "2.1.2"
     s.summary       = "A brief description of PageCallSDK."
     s.description   = <<-DESC
     An extended description of PageCallSDK.
