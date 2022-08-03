@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
     s.name          = "PageCallSDK"
-    s.version       = "2.1.3"
-    s.summary       = "A brief description of PageCallSDK."
+    s.version       = "2.2.4"
+    s.summary       = "Use Pagecall in iOS"
     s.description   = <<-DESC
-    An extended description of PageCallSDK.
+    Integrate whiteboard and video chats into your iOS application
     DESC
-    s.homepage      = "https://pplink.net/"
+    s.homepage      = "https://pagecall.com/"
     s.license       = { :type => "MIT", :file => "LICENSE" }
     s.author        = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source        = { :git => "https://github.com/pplink/pagecall-ios-sdk-distribution.git" }
-    
+    s.source        = { :git => "https://github.com/pplink/pagecall-ios-sdk-distribution.git", :tag => s.version.to_s }
+
     s.vendored_frameworks = "PageCallSDK.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
